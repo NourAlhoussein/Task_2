@@ -34,7 +34,7 @@ function App() {
         ]}
       />
       <HomePage
-        homePhoto:imageContainer
+        homePhoto= {imageContainer}
         items={[
           { number: 7000, type: "Students Passed Out" },
           { number: 37, type: "Awards & Recognitions" },
