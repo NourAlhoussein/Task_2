@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./NavBar.module.css";
 import { AiOutlineAlignRight } from "react-icons/ai";
+import logo from "../../../public/assets/images/logo.png";
 function NavBar({ logoName, items }) {
   const [slideShow, setSlideShow] = useState(false);
   const [activeNav, setActiveNav] = useState(items[0]?.content);
@@ -28,7 +29,7 @@ function NavBar({ logoName, items }) {
         <div>
           <img
             className={styles.LogoPhoto}
-            src="/public/assets/images/logo.png"
+            src={logo}
             alt="logo"
           />
         </div>
