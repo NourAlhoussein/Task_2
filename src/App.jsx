@@ -18,6 +18,7 @@ import { BsFillPeopleFill } from "react-icons/bs";
 import photo1 from "../public/assets/images/Icon.png";
 import photo2 from "../public/assets/images/Vector.png";
 import photo3 from "../public/assets/images/Mask group.png";
+import imageContainer from "../public/assets/images/Image Container.png";
 function App() {
   return (
     <div className="appStyle">
@@ -33,6 +34,7 @@ function App() {
         ]}
       />
       <HomePage
+        homePhoto:imageContainer
         items={[
           { number: 7000, type: "Students Passed Out" },
           { number: 37, type: "Awards & Recognitions" },
