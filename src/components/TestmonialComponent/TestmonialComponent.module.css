@@ -1,0 +1,55 @@
+.cardStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 2px solid #262626;
+  box-shadow: 4px 4px 0px #262626;
+  border-radius: 10px;
+  row-gap: 20px;
+  padding: 40px 30px;
+  font-family: "Outfit", sans-serif;
+  flex-basis: 20%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 250px;
+}
+.photoStyle {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #262626;
+  border-radius: 50%;
+  background-color: #fff5f0;
+  width: 75px;
+  height: 75px;
+}
+.nameStyle {
+  color: #333333;
+  font-weight: 600;
+  font-size: 16px;
+}
+.descriptionStyle {
+  font-size: 12px;
+  text-align: center;
+}
+.starStyle {
+  color: #ff8d4d;
+}
+@media screen and (max-width: 1240px) and (min-width: 1000px) {
+  .cardStyle {
+    flex-basis: 20%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 950px) {
+  .cardStyle {
+    flex-basis: 28%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cardStyle {
+    flex-basis: 50%;
+  }
+}

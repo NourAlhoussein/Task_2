@@ -1,0 +1,32 @@
+/*Colors////*/
+
+.main-back-color {
+  background-color: #fff5f0;
+}
+/*////////////*/
+
+/*/ Fonts /*/
+.outfit {
+  font-family: "Outfit", sans-serif;
+}
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+/*////////////*/
+.appStyle {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .appStyle {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .appStyle {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
