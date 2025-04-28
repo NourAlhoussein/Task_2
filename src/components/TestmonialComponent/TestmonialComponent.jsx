@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./TestmonialComponent.module.css";
 import { IoIosStar } from "react-icons/io";
-function TestmonialComponent({ testmonial, key }) {
+function TestmonialComponent({ testmonial}) {
   return (
     <div className={styles.cardStyle}>
       <div className={styles.photoStyle}>

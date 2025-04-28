@@ -19,11 +19,19 @@ import photo1 from "../public/assets/images/Icon.png";
 import photo2 from "../public/assets/images/Vector.png";
 import photo3 from "../public/assets/images/Mask group.png";
 import imageContainer from "../public/assets/images/Image Container.png";
+import logo from "../public/assets/images/logo.png";
+import container from "../public/assets/images/Container.png";
+import abstract from "../public/assets/images/Abstract Design.png";
+import abstract2 from "/public/assets/images/Abstract Design2.png";
+import group from "../public/assets/images/Group.png";
+import group2 from "../public/assets/images/Group (1).png";
+
 function App() {
   return (
     <div className="appStyle">
-      <Banner />
+      <Banner abstract={abstract} abstract2={abstract2} group={group} group2={group2}/>
       <NavBar
+      logo={logo}
         logoName="Little Learner"
         items={[
           { link: "#Home", content: "Home" },
@@ -34,7 +42,7 @@ function App() {
         ]}
       />
       <HomePage
-        homePhoto= {imageContainer}
+        homePhoto={imageContainer}
         items={[
           { number: 7000, type: "Students Passed Out" },
           { number: 37, type: "Awards & Recognitions" },
@@ -189,6 +197,7 @@ function App() {
         description="Your gateway to discovering a wealth of valuable information about our kindergarten school, Feel free to explore and learn more about the enriching experiences that await your child at our kindergarten school"
       />
       <PagesSection
+        container={container}
         pages={[
           {
             title: "About Us",
@@ -213,6 +222,7 @@ function App() {
         ]}
       />
       <Footer
+        logo={logo}
         logoName="Little Learner"
         email="hello@littlelearners.com"
         number="+91 91813 23 2309"

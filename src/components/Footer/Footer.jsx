@@ -6,8 +6,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdFacebook } from "react-icons/md";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import logo from "/public/assets/images/logo.png";
-function Footer({ logoName, email, number, address }) {
+function Footer({ logoName, email, number, address , logo }) {
   return (
     <div className={styles.footer}>
       <div className={styles.part1}>
