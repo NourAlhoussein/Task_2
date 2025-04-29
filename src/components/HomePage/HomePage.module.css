@@ -14,10 +14,11 @@
   font-weight: 400;
 }
 .TitleHome {
-  font-size: 40px;
+  font-size: 42px;
   color: #262626;
   font-weight: 800;
   margin-top: 10px;
+  font-family: "Raleway", sans-serif;
 }
 .TitleSpan {
   color: #ff8d4d;

@@ -1,5 +1,7 @@
 /*Colors////*/
-
+.appStyle {
+  background-color: #fff5f0;
+}
 .main-back-color {
   background-color: #fff5f0;
 }
@@ -9,10 +11,10 @@
 .outfit {
   font-family: "Outfit", sans-serif;
 }
+
 .raleway {
   font-family: "Raleway", sans-serif;
 }
-
 /*////////////*/
 .appStyle {
   padding-left: 30px;
