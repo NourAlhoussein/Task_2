@@ -19,9 +19,8 @@ import photo1 from "../public/assets/images/Icon.png";
 import photo2 from "../public/assets/images/Vector.png";
 import photo3 from "../public/assets/images/Mask group.png";
 import imageContainer from "../public/assets/images/Image Container.png";
-import logo from "https://nouralhoussein.github.io/Task_2/assets/images/logo.png";
+import logo from "/assets/images/logo.png";
 import container from "/assets/images/Container.png";
-import abstract from "/assets/images/Abstract Design.png";
 import abstract2 from "/assets/images/Abstract Design2.png";
 import group from "/assets/images/Group.png";
 import group2 from "/assets/images/Group (1).png";
@@ -30,7 +29,6 @@ function App() {
   return (
     <div className="appStyle">
       <Banner
-        abstract={abstract}
         abstract2={abstract2}
         group={group}
         group2={group2}

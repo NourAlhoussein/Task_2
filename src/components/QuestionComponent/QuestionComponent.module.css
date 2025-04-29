@@ -105,6 +105,9 @@
   .answerStyle {
     font-size: 10px;
   }
+  .btnDiv {
+    right: 8px;
+  }
 }
 @media screen and (max-width: 600px) {
   .openAccordion,
@@ -121,5 +124,12 @@
   }
   .answerStyle {
     font-size: 10px;
+  }
+  .titleStyle {
+    font-size: 12px;
+    text-align: left;
+  }
+  .btnDiv {
+    right: 4px;
   }
 }

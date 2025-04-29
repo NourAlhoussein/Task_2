@@ -1,8 +1,9 @@
 import React from "react";
 import styles from "./Banner.module.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import abstract from "/assets/images/Abstract Design.png"
 
-function GrabSeat({ abstract, abstract2, group, group2 }) {
+function GrabSeat({ abstract2, group, group2 }) {
   return (
     <>
       <div className={styles.BannerDiv}>
