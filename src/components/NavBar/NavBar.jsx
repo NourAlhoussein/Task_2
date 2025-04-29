@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import styles from "./NavBar.module.css";
 import { AiOutlineAlignRight } from "react-icons/ai";
-function NavBar({ logo, logoName, items }) {
+import logo from "../../../public/assets/images/logo.png";
+function NavBar({ logoName, items }) {
   const [slideShow, setSlideShow] = useState(false);
   const [activeNav, setActiveNav] = useState(items[0]?.content);
   const [isScroll, setIsScroll] = useState(false);
