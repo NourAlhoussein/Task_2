@@ -10,10 +10,10 @@
   row-gap: 20px;
   padding: 40px 30px;
   font-family: "Outfit", sans-serif;
-  flex-basis: 20%;
+  flex-basis: 22%;
   flex-grow: 0;
   flex-shrink: 0;
-  height: 250px;
+  height: 260px;
 }
 .photoStyle {
   display: flex;
@@ -38,7 +38,7 @@
 .starStyle {
   color: #ff8d4d;
 }
-@media screen and (max-width: 1240px) and (min-width: 1000px) {
+@media screen and (max-width: 1240px) and (min-width: 950px) {
   .cardStyle {
     flex-basis: 20%;
   }
