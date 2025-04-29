@@ -1,8 +1,8 @@
 import React from "react";
 import QuestionComponent from "../QuestionComponent/QuestionComponent";
 import styles from "./QuestionsSection.module.css";
-
-function QuestionsSection({ questions }) {
+import questions from "../../Data/QuestionsData";
+function QuestionsSection() {
   const question1 = questions.slice(0, questions.length / 2);
   const question2 = questions.slice(questions.length / 2, questions.length);
   return (

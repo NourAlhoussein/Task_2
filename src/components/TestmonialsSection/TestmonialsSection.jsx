@@ -3,7 +3,8 @@ import styles from "./TestMonialsSection.module.css";
 import TestmonialComponent from "../TestmonialComponent/TestmonialComponent";
 import { FaArrowRight } from "react-icons/fa6";
 import { FaArrowLeft } from "react-icons/fa6";
-function TestmonialsSection({ testmonials }) {
+import testmonials from "../../Data/TestmonialsData";
+function TestmonialsSection() {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
   const [slideItemNum, setSlideItemNum] = useState(3);
   const nextBtnFunction = () => {

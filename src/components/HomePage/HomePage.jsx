@@ -1,16 +1,13 @@
 import React from "react";
 import styles from "./HomePage.module.css";
 import { IoIosAdd } from "react-icons/io";
-
-function HomePage({ items }) {
+import homePhoto from "../../../public/assets/images/Image Container.png";
+import items from "../../Data/HomeData";
+function HomePage() {
   return (
     <div className={styles.HomePage}>
       <div className={styles.HomePhoto}>
-        <img
-          className={styles.Photo}
-          src="/assets/images/Image Container.png"
-          alt="Home Page"
-        />
+        <img className={styles.Photo} src={homePhoto} alt="Home Page" />
       </div>
       <div className={styles.HomeContent}>
         <div className={styles.HelloText}>

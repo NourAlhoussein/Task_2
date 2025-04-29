@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./PageComponent.module.css";
 import { FaArrowRightLong } from "react-icons/fa6";
 import line from "../../../public/assets/images/Container.png";
-function PageComponent({ page, container }) {
+function PageComponent({ page }) {
   return (
     <div className={styles.pageDiv}>
       <div className={styles.pageTitle}>{page.title}</div>
