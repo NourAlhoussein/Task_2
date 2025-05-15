@@ -2,11 +2,14 @@
   display: flex;
   overflow: hidden;
   position: relative;
-  margin-top: 100px;
+  margin-top: 60px;
   width: 100%;
   align-items: center;
   justify-content: center;
-  column-gap: 30px;
+  column-gap: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 .rightArrowDiv {
   position: absolute;
@@ -36,19 +39,24 @@
   height: 30px;
   cursor: pointer;
 }
-@media screen and (max-width: 1240px) and (min-width: 1000px) {
+@media screen and (min-width: 1441px) {
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
   .cardsDiv {
     column-gap: 20px;
   }
 }
-@media screen and (min-width: 600px) and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   .cardsDiv {
     margin-top: 40px;
-    column-gap: 40px;
+    padding-bottom: 60px;
   }
-}
-@media screen and (max-width: 600px) {
-  .cardsDiv {
-    margin-top: 40px;
+  .rightArrowDiv {
+    right: 34%;
+    top: 92%;
+  }
+  .leftArrowDiv {
+    left: 34%;
+    top: 92%;
   }
 }

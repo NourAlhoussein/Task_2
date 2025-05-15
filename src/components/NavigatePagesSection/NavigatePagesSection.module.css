@@ -1,22 +1,23 @@
-.BenefitsSection {
+.NavigatePagesSection {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
   margin-top: 60px;
   font-family: "Raleway", sans-serif;
   color: #1a1a1a;
   align-items: center !important;
   justify-content: center;
+  gap: 50px;
 }
 @media screen and (min-width: 1441px) {
 }
 @media screen and (min-width: 768px) and (max-width: 1440px) {
-  .BenefitsSection {
+  .NavigatePagesSection {
     margin-top: 40px;
+    gap: 40px;
   }
 }
 @media screen and (max-width: 768px) {
-  .BenefitsSection {
+  .NavigatePagesSection {
     margin-top: 40px;
     grid-template-columns: repeat(1, 1fr);
   }

@@ -111,7 +111,7 @@ function Footer({ logoName, email, number, address }) {
       </div>
       <div className={styles.lineH}></div>
       <div className={styles.part3}>
-        <div>
+        <div className={styles.part3Text}>
           Copyright © [2023] Little Learners Academy. All rights reserved.
         </div>
       </div>

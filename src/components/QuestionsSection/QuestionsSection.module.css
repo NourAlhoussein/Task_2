@@ -4,33 +4,35 @@
   margin-top: 60px;
   font-family: "Raleway", sans-serif;
   color: #1a1a1a;
+  gap: 50px;
 }
 .ArrayDiv1 {
   display: flex;
   flex-direction: column;
-  width: 48.42%;
-  row-gap: 30px;
+  width: 50%;
+  row-gap: 24px;
 }
 .ArrayDiv2 {
   display: flex;
   flex-direction: column;
-  width: 48.42%;
-  row-gap: 30px;
+  width: 50%;
+  row-gap: 24px;
 }
-@media screen and (min-width: 600px) and (max-width: 1000px) {
+@media screen and (min-width: 768px) and (max-width: 1440px) {
   .questionsSection {
     margin-top: 40px;
+    gap: 40px;
   }
   .ArrayDiv1,
   .ArrayDiv2 {
     row-gap: 20px;
   }
-
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .questionsSection {
     flex-wrap: wrap;
     margin-top: 40px;
+    gap: 0px;
   }
   .ArrayDiv1 {
     width: 100%;

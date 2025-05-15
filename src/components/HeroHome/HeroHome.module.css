@@ -1,20 +1,22 @@
-.HomePage {
+.HeroHome {
   display: flex;
   flex-flow: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 120px;
+  height: 100%;
   font-family: "Outfit", sans-serif;
+  gap: 64px;
+  margin-top: 150px;
 }
 .HelloText {
   border-bottom: 1px solid #262626;
   display: inline-block;
-  font-size: 15px;
+  font-size: 22px;
   color: #262626;
   font-weight: 400;
 }
 .TitleHome {
-  font-size: 42px;
+  font-size: 54px;
   color: #262626;
   font-weight: 800;
   margin-top: 10px;
@@ -25,7 +27,7 @@
 }
 .DescriptionHome {
   color: #333333;
-  font-size: 12px;
+  font-size: 20px;
   margin-top: 10px;
 }
 .HomePhoto {
@@ -35,7 +37,7 @@
   justify-content: center;
 }
 .Photo {
-  width: 80%;
+  width: 100%;
 }
 .HomeContent {
   flex: 1;
@@ -43,13 +45,15 @@
 .HomeBox {
   display: flex;
   flex-flow: row;
+  align-items: center !important;
+  justify-content: start !important;
   border: 2px solid #262626;
   border-radius: 8px;
   background-color: #ffefe5;
-  width: 60%;
+  width: 80%;
   justify-content: center;
   align-items: center;
-  padding: 10px 0px 10px 0px;
+  padding: 24px 50px 24px 50px;
   box-shadow: 4px 5px 1px #ffbe99;
   margin-top: 25px;
 }
@@ -63,57 +67,56 @@
 }
 .ItemNum {
   font-weight: 800;
-  font-size: 20px;
+  font-size: 44px;
   color: #262626;
   display: flex;
   align-items: center;
 }
 .ItemNum span {
   font-weight: 800;
-  font-size: 20px;
+  font-size: 44px;
   color: #262626;
   display: flex;
 }
 .ItemText {
-  font-size: 10px;
+  font-size: 18px;
   color: #262626;
   text-align: center;
 }
-@media screen and (min-width: 600px) and (max-width: 1000px) {
-  .HomePage {
-    margin-top: 110px;
+@media screen and (min-width: 1441px) {
+}
+@media screen and (min-width: 900px) and (max-width: 1440px) {
+  .HeroHome {
+    gap: 50px;
+    margin-top: 120px;
   }
   .HomeBox {
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    padding: 10px 20px 10px 20px;
   }
   .ItemNum {
-    font-size: 16px;
+    font-size: 34px;
   }
   .ItemNum span {
+    font-size: 34px;
+  }
+  .ItemText {
     font-size: 16px;
   }
   .HelloText {
-    font-size: 12px;
+    font-size: 18px;
   }
   .TitleHome {
-    font-size: 30px;
+    font-size: 40px;
   }
-  .Photo {
-    width: 90%;
+  .DescriptionHome {
+    font-size: 16px;
   }
 }
-@media screen and (max-width: 600px) {
-  .HomePage {
-    display: flex;
+@media screen and (max-width: 901px) {
+  .HeroHome {
     flex-flow: column;
-    margin-top: 100px;
-  }
-  .HomeBox {
-    width: 70%;
-  }
-  .Photo {
-    width: 90%;
+    gap: 35px;
   }
   .HomeContent {
     display: flex;
@@ -123,9 +126,27 @@
     text-align: center;
     margin-top: 25px;
   }
+  .HelloText {
+    font-size: 16px;
+  }
+  .DescriptionHome {
+    font-size: 16px;
+  }
+  .ItemNum {
+    font-size: 34px;
+  }
+  .ItemNum span {
+    font-size: 34px;
+  }
+  .ItemText {
+    font-size: 16px;
+  }
   .HomeBox {
     flex-flow: column;
     padding: 15px 0px 15px 0px;
+  }
+  .TitleHome {
+    font-size: 30px;
   }
   .BoxItem {
     width: 100%;

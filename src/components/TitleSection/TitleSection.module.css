@@ -7,13 +7,15 @@
 .BtnStyle {
   background-color: white;
   color: #333333;
-  font-size: 12px;
+  font-size: 18px;
+  font-weight: 500;
   border: 2px solid #333333;
   border-radius: 6px;
   padding: 6px 8px;
+
 }
 .TitleSection {
-  font-size: 30px;
+  font-size: 58px;
   font-weight: 700;
   margin-top: 20px;
 }
@@ -22,26 +24,37 @@
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
   margin-top: 20px;
   width: 100%;
 }
 .description {
   width: 70%;
+  font-weight: 500;
+  font-size: 20px;
 }
-@media screen and (min-width: 600px) and (max-width: 1000px) {
+@media screen and (min-width: 1441px) {
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
   .description {
     width: 80%;
+    font-size: 16px;
+  }
+  .TitleSection {
+    font-size: 48px;
   }
   .TitleStyle {
     margin-top: 65px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .TitleStyle {
     margin-top: 48px;
   }
+  .TitleSection {
+    font-size: 38px;
+  }
   .description {
+    font-size: 16px;
     width: 100%;
   }
 }

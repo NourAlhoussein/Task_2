@@ -1,11 +1,11 @@
 import React from "react";
-import styles from "./HomePage.module.css";
+import styles from "./HeroHome.module.css";
 import { IoIosAdd } from "react-icons/io";
 import homePhoto from "../../../public/assets/images/Image Container.png";
 import items from "../../Data/HomeData";
-function HomePage() {
+function HeroHome() {
   return (
-    <div className={styles.HomePage}>
+    <div className={styles.HeroHome}>
       <div className={styles.HomePhoto}>
         <img className={styles.Photo} src={homePhoto} alt="Home Page" />
       </div>
@@ -43,4 +43,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default HeroHome;

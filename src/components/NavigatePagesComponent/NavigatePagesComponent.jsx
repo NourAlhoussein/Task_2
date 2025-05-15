@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./PageComponent.module.css";
+import styles from "./NavigatePagesComponent.module.css";
 import { FaArrowRightLong } from "react-icons/fa6";
 import line from "../../../public/assets/images/Container.png";
-function PageComponent({ page }) {
+function NavigatePagesComponent({ page }) {
   return (
     <div className={styles.pageDiv}>
       <div className={styles.pageTitle}>{page.title}</div>
@@ -18,4 +18,4 @@ function PageComponent({ page }) {
   );
 }
 
-export default PageComponent;
+export default NavigatePagesComponent;

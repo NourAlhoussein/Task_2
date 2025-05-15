@@ -6,13 +6,13 @@
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
-  border: 1px solid #262626;
+  border: 2px solid #262626;
   border-radius: 8px;
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
   z-index: 2;
   margin-top: 20px;
   transition: 0.3s all;
   font-family: "Outfit", sans-serif;
+  height: 80px;
 }
 .topNavStyle {
   top: -10px;
@@ -26,10 +26,10 @@
   justify-content: center;
   flex: 2;
   background-color: #ff8d4d;
-  height: 50px;
   border-radius: 8px 0px 0px 8px;
-  font-size: 16px;
-  border-right: 1px solid #262626;
+  font-size: 20px;
+  height: 100%;
+  border-right: 2px solid #262626;
 }
 .UlStyleLarg {
   display: flex;
@@ -39,6 +39,7 @@
   list-style-type: none;
   margin: 0px;
   background-color: white;
+  height: 100%;
 }
 
 .NavItemLarg {
@@ -46,7 +47,6 @@
   flex-flow: row;
   align-items: center;
   justify-content: center;
-  height: 50px;
   border-left: 1px solid #262626;
   padding: 0px 8px 0px 8px;
 }
@@ -59,7 +59,7 @@
 .NavItemLarg a {
   text-decoration: none;
   color: #262626;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .ContactStyle {
@@ -69,9 +69,9 @@
   justify-content: center;
   flex: 1;
   background-color: #ffae80;
-  height: 50px;
   border-left: 1px solid #262626;
   border-radius: 0px 8px 8px 0px;
+  height: 100%;
 }
 .BtnNavSmall {
   display: none;
@@ -88,7 +88,7 @@
   overflow: hidden;
   background-color: #fff5f0;
   position: fixed;
-  top: 52px;
+  top: 60px;
   left: 0px;
   margin: 0px;
   padding: 0px;
@@ -101,22 +101,32 @@
   height: 100vh;
   transition: 0.5s ease;
 }
-@media screen and (min-width: 600px) and (max-width: 1000px) {
+@media screen and (min-width: 1441px) {
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .NavStyle {
+    height: 66px;
+  }
+  .LogoStyle {
+    font-size: 16px;
+  }
   .UlStyleLarg {
     flex: 5;
   }
-  .LogoStyle,
   .ContactStyle {
-    font-size: 12px;
+    font-size: 16px;
   }
   .LogoPhoto {
     width: 25px;
   }
   .NavItemLarg a {
-    font-size: 10px;
+    font-size: 16px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+  .NavStyle {
+    height: 62px;
+  }
   .NavItemLarg,
   .ContactStyle {
     display: none;
@@ -125,7 +135,7 @@
   .NavItemSmall a {
     text-decoration: none;
     color: #262626;
-    font-size: 15px;
+    font-size: 18px;
   }
   .NavItemSmall {
     margin-top: 20px;
@@ -133,7 +143,6 @@
   }
   .UlStyleLarg {
     flex: 2;
-    height: 50px;
     width: 100%;
     background-color: white;
   }
@@ -151,11 +160,11 @@
     align-items: center;
     justify-content: center;
     background-color: #ffefe5;
-    height: 50px;
     border-radius: 0px 8px 8px 0px;
     flex: 2;
     font-size: 22px;
-    border-left: 1px solid #262626 !important;
+    height: 100%;
+    border-left: 2px solid #262626 !important;
     border: none;
   }
 }

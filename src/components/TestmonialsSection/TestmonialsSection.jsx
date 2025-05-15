@@ -28,11 +28,9 @@ function TestmonialsSection() {
   useEffect(() => {
     const numOfSlide = () => {
       const width = window.innerWidth;
-      if (width >= 950) {
+      if (width > 768) {
         return setSlideItemNum(3);
-      } else if (width < 950 && width > 600) {
-        return setSlideItemNum(2);
-      } else if (width < 600) {
+      } else if (width <= 768) {
         return setSlideItemNum(1);
       }
     };

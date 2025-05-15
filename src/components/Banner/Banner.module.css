@@ -13,7 +13,8 @@
   position: relative;
   overflow: hidden;
   left: 50%;
-    transform: translateX(-50%);
+  transform: translateX(-50%);
+  height: 58px;
 }
 .BannerText {
   font-size: 16px;
@@ -44,7 +45,12 @@
   bottom: 0px;
   right: 28%;
 }
-@media screen and (min-width: 600px) and (max-width: 1000px) {
+@media screen and (min-width: 1441px) {
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .BannerDiv {
+    height: 48px;
+  }
   .BannerText,
   .BannerArrow {
     font-size: 12px;
@@ -60,7 +66,10 @@
     right: 10%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+  .BannerDiv {
+    height: 45px;
+  }
   .BannerText,
   .BannerArrow {
     font-size: 10px;

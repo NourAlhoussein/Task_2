@@ -5,35 +5,37 @@
   box-shadow: 4px 4px 0px #262626;
   font-family: "Outfit", sans-serif;
   margin-top: 100px;
-  padding: 80px 48px 32px 48px;
+  padding: 100px 113px 40px 113px;
 }
 .LogoStyle {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
+  font-size: 24px;
   color: #262626;
   font-family: "Outfit", sans-serif;
   font-weight: 600;
+  column-gap: 16px;
 }
 .contactType {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   align-items: start;
   justify-content: center;
   margin-top: 20px;
-  row-gap: 10px;
+  row-gap: 24px;
 }
 .firstColumn {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   align-items: start;
-  row-gap: 24px;
+  flex: 1;
+  row-gap: 50px;
 }
 .iconStyle {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #fff5f0;
@@ -45,13 +47,13 @@
 }
 .iconStyleSocial {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #ffdecc;
   border: 1px solid #262626;
   outline: none;
-  padding: 12px;
+  padding: 16px;
   border-radius: 6px;
   cursor: pointer;
   color: #262626;
@@ -70,25 +72,28 @@
 .secondColumn {
   display: flex;
   flex-flow: row;
+  flex: 1;
+  column-gap: 30px;
 }
 .groupItems1 {
   display: flex;
   flex-flow: row;
-  column-gap: 40px;
+  column-gap: 30px;
 }
 .groupItems2 {
   display: flex;
   flex-flow: row;
-  column-gap: 40px;
+  column-gap: 30px;
 }
 .titleType {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 20px;
   cursor: pointer;
 }
 .titleItems {
-  margin-top: 20px;
-  font-size: 12px;
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 500;
   display: flex;
   flex-flow: column;
   row-gap: 16px;
@@ -96,20 +101,19 @@
   cursor: pointer;
 }
 .contactText {
-  font-size: 14px;
+  font-size: 20px;
 }
 .textStyle {
-  width: 80%;
-  font-size: 16px;
+  font-size: 20px;
 }
 .part2Text {
-  font-size: 14px;
+  font-size: 18px;
 }
 .lineH {
   height: 1px;
   width: 100%;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   background-color: #262626;
 }
 .lineV {
@@ -147,52 +151,68 @@
   font-size: 14px;
   text-align: center;
 }
+.part3Text {
+  text-align: 18px;
+}
 .logoTextStyle {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   align-items: start;
   justify-content: center;
 }
 .lineVDiv {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-@media screen and (min-width: 600px) and (max-width: 1000px) {
+@media screen and (min-width: 900px) and (max-width: 1440px) {
   .footer {
     margin-top: 65px;
-    padding: 60px 32px 24px 32px;
-  }
-  .secondColumn {
-    column-gap: 20px;
-  }
-  .groupItems1,
-  .groupItems2 {
-    column-gap: 20px;
+    padding: 80px 80px 40px 80px;
   }
   .textStyle {
-    width: 90%;
+    font-size: 16px;
+  }
+  .contactText {
+    font-size: 16px;
+  }
+  .part2Text {
+    font-size: 16px;
+  }
+  .iconStyleSocial {
+    padding: 14px;
+  }
+  .lineH {
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .footer {
     margin-top: 48px;
-    padding: 60px 32px 24px 32px;
+    padding: 60px 30px 30px 30px;
   }
   .part1 {
-    flex-flow: column;
+    flex-direction: column;
+  }
+  .part2 {
+    flex-direction: column;
+  }
+  .part2Div2 {
+    margin-top: 20px;
   }
   .logoTextStyle {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     row-gap: 10px;
+    width: 100%;
   }
   .secondColumn {
-    flex-flow: column;
+    flex-direction: column;
     margin-top: 30px;
   }
   .groupItems1 {
@@ -204,13 +224,7 @@
     align-items: start;
     justify-content: center;
     column-gap: 0px;
-    margin-top: 20px;
-  }
-  .part2 {
-    flex-flow: column;
-  }
-  .part2Div2 {
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .flex_1 {
     flex: 1;
@@ -221,5 +235,21 @@
   }
   .part2Text {
     text-align: center;
+  }
+  .textStyle {
+    font-size: 16px;
+  }
+  .contactText {
+    font-size: 16px;
+  }
+  .part2Text {
+    font-size: 16px;
+  }
+  .iconStyleSocial {
+    padding: 12px;
+  }
+  .lineH {
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
 }

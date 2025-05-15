@@ -19,7 +19,7 @@ function QuestionComponent({ question }) {
         <div className={styles.line}></div>
         <div className={styles.answerStyle}>{question.answer}</div>
       </div>
-      <div className={styles.btnDiv}>
+      <div className={styles.btnDivOpen}>
         <button
           className={
             isOpen === false ? styles.openBtn : styles.openBtnDisplayNone
@@ -28,6 +28,8 @@ function QuestionComponent({ question }) {
         >
           <IoIosAdd />
         </button>
+        </div>
+        <div className={styles.btnDivClose}>
         <button
           className={
             isOpen === false ? styles.closeBtnDisplayNone : styles.closeBtn
