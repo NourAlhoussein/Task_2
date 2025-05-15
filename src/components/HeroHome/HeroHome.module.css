@@ -117,6 +117,7 @@
   .HeroHome {
     flex-flow: column;
     gap: 35px;
+    margin-top: 120px;
   }
   .HomeContent {
     display: flex;
