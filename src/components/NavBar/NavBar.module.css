@@ -13,10 +13,11 @@
   transition: 0.3s all;
   font-family: "Outfit", sans-serif;
   height: 80px;
+  width: 92vw;
 }
 .topNavStyle {
   top: -10px;
-  width: 96vw;
+  width: 92vw;
   transition: 0.2s all;
 }
 .LogoStyle {

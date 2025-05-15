@@ -13,8 +13,10 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="appStyle">
-      <Banner />
-      <NavBar />
+      <div className="headerStyle">
+        <Banner />
+        <NavBar />
+      </div>
       <div className="HeroSection">
         <HeroHome />
       </div>
